@@ -1,0 +1,41 @@
+{
+  "name": "socket-sdk-ts",
+  "version": "1.0.4",
+  "description": "An sdk to make chat applicatioin",
+  "source": "dist/index.js",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "publish": "cd lib && npm publish",
+    "dev":"nodemon lib/index.js"
+
+  },
+  "author": "Aditya Rawat",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^5.7.1",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "jest": "^29.5.0",
+    "jest-cli": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "timers-browserify": "^2.0.12",
+    "typescript": "^5.0.4",
+    "url": "^0.11.0",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "socket-sdk-ts": "^1.0.2",
+    "socket.io": "^4.6.1"
+  }
+}
